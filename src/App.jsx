@@ -3,7 +3,7 @@ import { ButtonUiKit } from "./components";
 function App() {
   return (
     <>
-      <h1>Samane Mirzaee</h1>
+      <h1>Samane Mirzaee:First package</h1>
       <ButtonUiKit>click me</ButtonUiKit>
     </>
   );
