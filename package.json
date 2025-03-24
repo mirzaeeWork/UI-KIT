@@ -1,6 +1,6 @@
 {
-  "name": "ui-kit",
-  "version": "1.0.2",
+  "name": "@mirzaeeWork/uikit",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -16,13 +16,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mirzaeeWork/UI-KIT.git"
+    "url": "git+https://github.com/mirzaeeWork/UI-KIT.git"
   },
   "author": "Samane Mirzaee",
   "license": "MIT",
   "private": false,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@mirzaeeWork"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev": "vite",

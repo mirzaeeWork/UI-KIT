@@ -10,6 +10,9 @@ lerna-debug.log*
 node_modules
 # Ignore dist in git but allow it in npm
 dist/
+!dist/index.cjs.js
+!dist/index.es.js
+!dist/index.umd.js
 dist-ssr
 *.local
 

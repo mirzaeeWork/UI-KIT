@@ -40,6 +40,12 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+      
+      - name: Download built files
+        uses: actions/download-artifact@v4
+        with:
+          name: production-files
+          path: ./dist  
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
