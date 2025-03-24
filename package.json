@@ -1,6 +1,6 @@
 {
-  "name": "@mirzaeeWork/uikit",
-  "version": "1.0.0",
+  "name": "@mirzaeework/uikit",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
